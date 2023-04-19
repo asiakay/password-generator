@@ -1,15 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "./gui.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
+  "builds": [{ "src": "gui.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "/gui.py" }],
+  "version": 2
 }
