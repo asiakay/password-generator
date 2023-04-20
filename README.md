@@ -1,4 +1,4 @@
-# password-generator # Password Generator
+# password-generator
 
 This is a simple Flask application that generates random passwords based on user input. The application allows users to specify the length of the password as well as which character types to include (e.g. uppercase letters, lowercase letters, numbers, symbols).
 
